@@ -8,7 +8,7 @@
         android:name="com.example.safeboxmonitor.application.Application">
 
         <activity
-            android:name="com.example.safeboxmonitor.ui.activity.MenuActivity"
+            android:name="com.example.safeboxmonitor.ui.bluetooth.testBlueTooth"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,6 +41,9 @@
                 <action android:name="con.yuntongxun.ecdemo.intent.ACTION_VIDEO_CALL" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.safeboxmonitor.ui.bluetooth.RelayControl">
         </activity>
         // SDK核心服务配置
         <service android:name="com.yuntongxun.ecsdk.ECClientService"

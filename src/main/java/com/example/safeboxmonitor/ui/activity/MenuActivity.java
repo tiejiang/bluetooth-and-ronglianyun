@@ -27,6 +27,10 @@ import java.util.List;
  * Created by Administrator on 2016/11/21.
  */
 
+/**
+ * 加入蓝牙后废弃次文件（以”testbluetooh.java“ 作为启动的activity）
+ *
+ * **/
 public class MenuActivity extends Activity implements IMChattingHelper.OnMessageReportCallback, View.OnClickListener {
 
     private Button mButtonMonitor;
